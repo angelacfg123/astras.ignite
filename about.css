@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.about-content {
+    width: min(100% - 40px, 1120px);
+    margin: clamp(32px, 6vw, 64px) auto;
+    color: #e7edf7;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+}
+
+.member-card {
+    padding: clamp(22px, 3vw, 30px);
+    background: linear-gradient(135deg, rgb(37 52 75 / 94%), rgb(17 28 45 / 96%));
+    border: 1px solid rgb(151 174 207 / 23%);
+    border-radius: 22px;
+    box-shadow: 0 16px 42px rgb(0 0 0 / 24%);
+}
+
+.member-card h1,
+.member-card h2 {
+    width: fit-content;
+    margin: 0 0 16px;
+    padding: 8px 14px;
+    color: #f7f8fc;
+    background: linear-gradient(110deg, rgb(145 183 235 / 24%), rgb(229 139 104 / 16%));
+    border-radius: 9px;
+    font-size: clamp(1.4rem, 3vw, 1.8rem);
+}
+
+.member-card p {
+    margin: 0;
+    color: #d3dceb;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+    .about-content {
+        width: min(100% - 24px, 1120px);
+    }
+
+    .member-card {
+        border-radius: 18px;
+    }
+}

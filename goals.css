@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    background-color: #080d17;
+    background-image:
+        linear-gradient(rgb(8 13 23 / 56%), rgb(8 13 23 / 72%)),
+        url("background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    cursor: url("rocket-cursor-left.png") 8 8, auto;
+}
+
+a,
+button,
+summary,
+[role="button"] {
+    cursor: url("https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f680.png") 8 8, pointer;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.topnav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 12px;
+    padding: 12px;
+    background: #17243b;
+}
+
+.topnav > a {
+    flex: 1 1 0;
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 14px;
+}
+
+.topnav > .nav-dropdown {
+    position: relative;
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.topnav > a,
+.nav-dropdown > summary {
+    display: block;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 14px;
+}
+
+.topnav img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-dropdown > summary {
+    list-style: none;
+}
+
+.nav-dropdown > summary::-webkit-details-marker {
+    display: none;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    min-width: 140px;
+    padding: 10px;
+    background: #17243b;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 6px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover,
+.dropdown-content a:focus-visible {
+    background: #eee;
+}
+
+.nav-dropdown:not([open]) .dropdown-content {
+    display: none;
+}
+
+.goals-content {
+    display: grid;
+    gap: 24px;
+    width: min(100% - 40px, 1000px);
+    margin: clamp(32px, 6vw, 64px) auto;
+    color: #e7edf7;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.goals-card {
+    padding: clamp(22px, 4vw, 38px);
+    background: linear-gradient(135deg, rgb(37 52 75 / 94%), rgb(17 28 45 / 96%));
+    border: 1px solid rgb(151 174 207 / 23%);
+    border-radius: 22px;
+    box-shadow: 0 16px 42px rgb(0 0 0 / 24%);
+}
+
+.goals-card h1,
+.goals-card h2 {
+    margin: 0 0 18px;
+    padding-bottom: 12px;
+    color: #f7f8fc;
+    background: linear-gradient(90deg, #91b9ef, #e99a71);
+    background-clip: text;
+    border-bottom: 1px solid rgb(211 226 250 / 24%);
+    font-size: clamp(1.7rem, 4vw, 2.4rem);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.goals-card p {
+    margin: 0;
+    color: #d3dceb;
+    font-size: clamp(1rem, 1.5vw, 1.1rem);
+    line-height: 1.85;
+}
+
+.research-content h3 {
+    margin: 36px 0 14px;
+    padding-bottom: 10px;
+    color: #d5e5ff;
+    border-bottom: 1px solid rgb(211 226 250 / 20%);
+    font-size: clamp(1.35rem, 3vw, 1.8rem);
+}
+
+.research-content h4 {
+    margin: 24px 0 10px;
+    color: #f0c2a8;
+    font-size: clamp(1.08rem, 2vw, 1.25rem);
+}
+
+.research-content p + p {
+    margin-top: 16px;
+}
+
+.research-content ul {
+    display: grid;
+    gap: 12px;
+    margin: 12px 0 24px;
+    padding-left: 24px;
+    color: #d3dceb;
+    line-height: 1.8;
+}
+
+.research-content li::marker {
+    color: #f0c2a8;
+}
+
+.research-content strong {
+    color: #f3f6fc;
+}
+
+.research-table-wrap {
+    margin: 20px 0 28px;
+    overflow-x: auto;
+    border: 1px solid rgb(151 174 207 / 23%);
+    border-radius: 12px;
+}
+
+.research-table {
+    width: 100%;
+    min-width: 620px;
+    border-collapse: collapse;
+    color: #d3dceb;
+    text-align: left;
+}
+
+.research-table th,
+.research-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid rgb(151 174 207 / 16%);
+}
+
+.research-table th {
+    color: #f7f8fc;
+    background: rgb(145 183 235 / 14%);
+}
+
+.research-table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .goals-content {
+        width: min(100% - 24px, 1000px);
+    }
+
+    .goals-card {
+        border-radius: 18px;
+    }
+}

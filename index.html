@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ASTRAS.IGNITE</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="goals.css">
+        <script>
+            if (sessionStorage.getItem("astras-ignite-explored") === "true") {
+                document.documentElement.classList.add("has-explored");
+            }
+        </script>
+    </head>
+    <body>
+        <section class="welcome-screen" id="welcome-screen" aria-labelledby="welcome-title">
+            <div class="welcome-content">
+                <h1 id="welcome-title">ASTRAS.IGNITE</h1>
+                <p class="welcome-subtitle"><strong>Abandoned but not Forgotten: Storytelling about NASA's Discarded Equipment on the Moon and Mars</strong></p>
+                <p class="welcome-event">NASA SPACE APPS CHALLENGE</p>
+                <button class="explore-button" id="explore-button" type="button">Explore</button>
+            </div>
+        </section>
+        <!--Membuat Header-->
+        <header>
+            <img src="HOME (1).png" alt="home header">
+        </header>
+        <!--Membuat Menu-->
+        <div class="topnav">
+                <a href="index.html"><img src="home.png" alt="home header"></a>
+                <details class="nav-dropdown">
+                    <summary><img src="storyline.png" alt="storyline header"></summary>
+                    <div class="dropdown-content">
+                        <a href="storyline.html"><img src="moon.png" alt="moon header"></a>
+                        <a href="mars.html"><img src="mars.png" alt="mars header"></a>
+                    </div>
+                </details>
+                <a href="concept.html"><img src="concept.png" alt="concept header"></a>
+                <a href="goals.html"><img src="goals.png" alt="goals header"></a>
+                <a href="about.html"><img src="about us.png" alt="about header"></a>
+                <a href="sources.html"><img src="sources.png" alt="sources header"></a>
+        </div>
+        <main class="goals-content">
+            <section class="goals-card">
+                <h1>Group Profile</h1>
+                <p>ASTRA IGNITE is a team full of hardworking, compassionate, and high spirited students located in Jakarta. Get ready to know and discover Mars and Moon topics such as its missions, scientific instruments, rovers, and landers. We are yearning to study those topics and are also hoping to recommend creative ideas, solving problems, conduct data, and find new discoveries related to the abandoned items scattered across the planet. With this team, we hope to fulfill your wonderful dreams of becoming astronomers, space scientists, astronauts, and become winners of the NASA Space Challenges 2026! Ad astra Et Ultra.</p>
+            </section>
+            <section class="goals-card research-content">
+                <h2>About</h2>
+                <p>NASA has left more than 200 tons of equipment on the Moon and scattered landing hardware across Mars, turning both worlds into accidental time capsules of human exploration. From Eugene Cernan&rsquo;s final footprints on the Moon to Perseverance&rsquo;s discarded heat shield on Mars, these objects tell the story of how we got there and what we left behind.</p>
+
+                <h3>Mars: Deliberate Debris from Rover Landings</h3>
+                <p>On Mars, the &ldquo;junk&rdquo; is mostly intentional. When Perseverance touched down in Jezero Crater on February 18, 2021, its heat shield, parachute, backshell, and powered descent stage were dropped on the surface to reduce weight. NASA&rsquo;s Mars Reconnaissance Orbiter has photographed these pieces from orbit, and the rover itself has left tracks and small components behind as it moves. Unlike the Moon&rsquo;s preserved artifacts, Mars debris is part of an ongoing engineering record that future explorers can study.</p>
+                <p>But the artifacts left behind also tell stories about the Apollo program, as well as about uncrewed, robotic missions by the United States and other countries. &ldquo;Our history is the most valuable and most vulnerable resource we have on the moon right now,&rdquo; says Michelle Hanlon, co-founder and CEO of For All Moonkind, a nonprofit dedicated to protecting lunar landing sites. Beyond these known objects, any traces of the astronauts that have yet to be discovered, such as the possibility they carved their initials into the regolith, &ldquo;tell us a lot about humanity,&rdquo; she adds.</p>
+
+                <h3>Moon: Historical Artifacts on the Lunar Surface</h3>
+                <p>In one sense, the moon is an ideal place to preserve artifacts. With no wind and no flowing water, delicate landscape features such as the footprints of astronauts appear to have remained intact. But in another sense, objects on the moon are prone to damage. Micrometeoroids could pelt and dent metals, for example, and solar radiation can bleach textiles or photographs.</p>
+                <p>However, as human activity ramps up on the lunar surface, with more than 100 missions planned to occur by 2030, it poses another looming threat to these items. For example, individuals might go to the moon, retrieve artifacts and sell them illegally. Given the significance of the Apollo historic sites, they could become the targets of politically motivated aggression, Muir-Harmony says. Or, if tourists one day travel to the moon to explore lunar history, these futuristic vacationers could walk on top of the historic footprints. It also remains possible that a spacecraft might inadvertently destroy some of the lunar artifacts, perhaps by landing too close to the historic sites.</p>
+
+                <h3>Mars Debris</h3>
+                <p>The three main sources of debris on Mars are; discarded hardware, inactive spacecraft. Every mission to Mars requires a module that protects, this includes a heat shield and the spacecraft goes through the planet&rsquo;s atmosphere, a parachute and a landing hardware so that it could land safely. Spacecrafts that go to Mars discards pieces of the module as it descends, these pieces can land in different locations on the planet&rsquo;s surface. When the debris hits the ground, it could break into small pieces.</p>
+                <p>These small pieces can get blown around by Martian winds.</p>
+
+                <h3>Moon: Human Artifacts &amp; Lunar Debris</h3>
+                <h4>NASA&rsquo;s Catalogue of Manmade Material on the Moon</h4>
+                <p>This is the official master repository detailing approximately 500 individual human-made objects and roughly 200 tonnes of material sitting on the Moon. It provides precise coordinate listings for Apollo descent stages, lunar rovers, Soviet Luna probes, impact craters from booster rockets, and small ceremonial items.</p>
+                <h4>Lunar Reconnaissance Orbiter (LRO) Datasets via PDS</h4>
+                <p>To visually cross-reference actual equipment locations, use the LRO Camera (LROC) data. The LROC Experiment Data Records provide sub-meter resolution images that clearly show the Apollo landing stages, rovers, and international crash spots.</p>
+                <h4>NASA Lunar Map Catalog</h4>
+                <p>An open-access dataset mapping specific coordinates and topographic profiles across Apollo landing zones.</p>
+                <h4>NASA-IBM Lunar Foundation Model</h4>
+                <p>A newly released open-source geospatial AI tool built to map lunar structures, terrain anomalies, and potential base planning.</p>
+
+                <h3>Moon Exploration Program</h3>
+                <p>NASA&rsquo;s Moon Exploration Program Includes missions such as the Apollo Program, Surveyor Program, and Lunar Orbiter Program. There was abandoned equipment left behind on planet Mars. These programs consists of:</p>
+
+                <h4>Lunar Orbiter Program</h4>
+                <p>Five Lunar Orbiter missions were launched in 1966 through 1967 with the purpose of mapping the lunar surface before the Apollo landings. All five missions were successful, and 99% of the Moon was photographed with a resolution of 60 m or better. The first three missions were dedicated to imaging 20 potential lunar landing sites, selected based on Earth-based observations. These were flown at low inclination orbits. The fourth and fifth missions were devoted to broader scientific objectives and were flown in high altitude polar orbits. Lunar Orbiter 4 photographed the entire nearside and 95% of the farside, and Lunar Orbiter 5 completed the farside coverage and acquired medium (20 m) and high (2 m) resolution images of 36 pre-selected areas. The images at the top of the page show the Lunar Orbiter spacecraft with the high and medium resolution cameras at the center, and an image of the crater Tycho taken with the Lunar Orbiter 5 medium resolution camera.</p>
+                <p>The Lunar Orbiters had an ingenious imaging system, which consisted of a dual-lens camera, a film processing unit, a readout scanner, and a film handling apparatus. Both lenses, a 610-mm narrow angle high-resolution (HR) lens and an 80-mm wide-angle medium resolution (MR) lens, placed their frame exposures on a single roll of 70 mm film. The axes of the two cameras were coincident so the area imaged in the HR frames were centered within the MR frame areas. The film was moved during exposure to compensate for the spacecraft velocity, which was estimated by an electric-optical sensor. The film was then processed, scanned, and the images transmitted back to Earth.</p>
+                <p>Lunar Orbiters photographed 99% of the Moon. The first three missions focused on imaging 20 potential Apollo lunar landing sites. These were flown at low inclination orbits. The final two missions were flown at high altitude polar orbits.</p>
+                <p>The orbiters carried a dual-lens camera, a film processing unit, a readout scanner, and a film-handling apparatus. Both lenses placed their exposures on a single roll of 70 mm film. The film was moved during exposure to compensate for the spacecraft velocity, which was estimated by an optical sensor. The film was then processed, scanned, and the images transmitted back to Earth. Lunar Orbiter 4 photographed the entire nearside and 95% of the farside. Lunar Orbiter 5 completed the farside coverage and took more detailed images of 36 key areas.</p>
+                <div class="research-table-wrap">
+                    <table class="research-table">
+                        <thead>
+                            <tr><th>Spacecraft</th><th>Launch Data</th><th>Purpose</th><th>Results</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Lunar Orbiter 1</td><td>Aug 10, 1996</td><td>Apollo Landing Site Survey</td><td>Successful</td></tr>
+                            <tr><td>Lunar Orbiter 2</td><td>Nov 6, 1966</td><td>Apollo Landing Site Survey</td><td>Successful</td></tr>
+                            <tr><td>Lunar Orbiter 3</td><td>Feb 5, 1967</td><td>Apollo Landing Site Survey</td><td>Successful</td></tr>
+                            <tr><td>Lunar Orbiter 4</td><td>May 4, 1967</td><td>Lunar Mapping</td><td>Successful</td></tr>
+                            <tr><td>Lunar Orbiter 5</td><td>Aug 1, 1967</td><td>Lunar Mapping / High Resolution</td><td>Successful</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h4>Lunar Ranger Program</h4>
+                <p>Begun at the beginning of the 1960s as ambitious, independent and broad scientific activities, the Rangers and Surveyors paved the way for the eventual Apollo human exploration missions to the Moon. Rangers were designed to relay pictures and other data as they approached the Moon and finally crash-landed into its surface. The Surveyors were designed for lunar soft landings.</p>
+                <p>Ranger was originally designed, beginning in 1959, in three distinct phases, called &ldquo;blocks.&rdquo; Each block had different mission objectives and progressively more advanced system design. The JPL mission designers planned multiple launches in each block, to maximize the engineering experience and scientific value of the mission and to assure at least one successful flight.</p>
+                <p>Block 1, consisting of two spacecraft launched into Earth orbit in 1961, was intended to test the Atlas/Agena launch vehicle and spacecraft equipment without attempting to reach the Moon. Most elements of spacecraft technology taken for granted today were untested before Ranger. Perhaps the most important of these was three-axis attitude stabilization, meaning that the spacecraft is fixed in relation to space instead of being stabilized by spinning. This would permit pointing large solar panels at the Sun, a large antenna at Earth and cameras and other directional scientific sensors at their appropriate targets.</p>
+                <p>Rocket propulsion carried aboard the spacecraft was another critically important new technology, needed for accurate targeting at the Moon or distant planets. In addition, two-way communication and closed-loop tracking, requiring spacecraft and ground system development and the use of on-board computing and sequencing combined with commands from the ground, all had to be developed and tried out in flight.</p>
+                <p>Unfortunately, problems with the early version of the launch vehicle left Ranger 1 and Ranger 2 in short-lived, low-Earth orbits in which the spacecraft could not stabilize themselves, collect solar power or survive for long.</p>
+                <p>Block 2 of the Ranger project launched three spacecraft to the Moon in 1962, carrying a TV camera, a radiation detector, and a seismometer in a separate capsule slowed by a rocket motor and packaged to survive its low-speed impact on the Moon&rsquo;s surface. The three missions together demonstrated good performance of the Atlas/Agena B launch vehicle and the adequacy of the spacecraft design, but unfortunately not all on the same attempt.</p>
+                <p>Ranger 3 was launched into deep space, but an inaccuracy put it off course and it missed the Moon entirely. Ranger 4 had a perfect launch, but the spacecraft was completely disabled. The project team tracked the seismometer capsule to impact just out of sight on the lunar far side, validating the communications and navigation system. Ranger 5 missed the Moon and was disabled. No significant science information was gleaned from these missions.</p>
+
+                <h4>Lunar Terrain Vehicles (LTVs)</h4>
+                <p>Lunar Terrain Vehicles (LTVs) are the next generation of Moon rovers. NASA awarded Astrolab and Lunar Outpost task orders to build the first crew-capable LTVs, and Blue Origin a task order to deliver them to the lunar South Pole region by 2028. Before astronauts arrive, the LTVs will be operated remotely from Earth, driving up to 6 kilometers a day to map the surface. With a crew, each LTV can support up to three moonwalks per mission, carry up to 80 kilograms of samples and tools, and travel up to 10 kilometers on one battery charge. The LTVs continue a story that began with the Apollo Lunar Roving Vehicles, three of which were left on the Moon after the Apollo 15, 16 and 17 missions.</p>
+                <p>Volatiles Investigating Polar Exploration Rover (VIPER) is a robotic rover built to look for water and other resources. NASA canceled its earlier mission in July 2024 because of rising costs and delays, then revived it in September 2025 by choosing Blue Origin to deliver it. VIPER will explore permanently shadowed craters near the lunar South Pole in 2027 and travel more than 30 kilometers, and as of October 2026 it is fully built and in final testing at NASA&rsquo;s Johnson Space Center. VIPER shows that equipment can be saved from being abandoned: a rover that was nearly left on Earth is now on its way to the Moon.</p>
+
+                <h4>Apollo Lunar Modules</h4>
+                <p>Each Apollo lunar module had two stages. The descent stage carried the landing engine and served as a launch platform, and it stayed behind on the surface when the astronauts left in the ascent stage. This means a descent stage remains at each of the six Apollo landing sites (Apollo 11, 12, 14, 15, 16 and 17). The ascent stages had different endings: NASA states that Apollo 11&rsquo;s ascent stage was jettisoned and remained in lunar orbit, and its final fate is unknown, while several later ascent stages were deliberately crashed into the Moon so seismometers could record the impacts.</p>
+
+                <h3>Mars</h3>
+                <h4>Mars Exploration Program</h4>
+                <p>NASA's Mars Exploration Program includes current missions Odyssey, MRO, Mars Express, MSL, InSight, and Mars 2020. The Mars Exploration Program Data Management Plan, written by the Geosciences Node, sets forth guidelines for Mars Exploration Program missions to use in planning their archives.</p>
+                <p>Out of all those programs, there was abandoned equipment left behind on planet Mars. These programs consists of:</p>
+
+                <h4>InSight Lander</h4>
+                <p>The InSight Lander landed on Mars and began operations on November 26, 2018. Last contact with the spacecraft occurred on December 15, 2022; the mission officially ended on December 20, 2022.</p>
+                <h4>Phoenix Lander</h4>
+                <p>The Phoenix Mars Lander was launched August 4, 2007, and landed on the Martian surface on May 25, 2008. The last transmission of science data from Phoenix occurred on October 29, 2008, sol 152.</p>
+                <h4>Additional instruments on the Phoenix Lander</h4>
+                <ul>
+                    <li><strong>RA (Robotic Arm):</strong> The Phoenix Robotic Arm was used to deploy the Robotic Arm Camera (RAC), and the Thermal and Electrical Conductivity Probe (TECP), along with a scoop for digging and collecting soil. The robot arm was then permanently deactivated by NASA during late October 2008 as a part of phased shutdown to save energy.</li>
+                    <li><strong>RAC (Robotic Arm Camera):</strong> Because the camera was physically attached to the forearm of the robotic arm just above the scoop, it drew its power from the same electrical system. When the Martian winter started, the solar power levels dropped drastically causing the camera and its heater to shut down simultaneously to conserve electricity for the landers main computer.</li>
+                    <li><strong>MECA (Microscopy, Electrochemistry, and Conductivity Analyzer):</strong> The MECA instrument includes the Atomic Force Microscope (AFM), Optical Microscope (OM), Thermal and Electrical Conductivity Probe (TECP), and Wet Chemistry Laboratory (WCL).</li>
+                    <li><strong>TEGA (Thermal and Evolved Gas Analyzer on the Mars Phoenix Lander):</strong> Thermal and evolved-gas analyzer designed to analyze 50 mg of fine grained soil or rock fragments that are loaded into ovens via a funnel.</li>
+                </ul>
+
+                <h4>MAVEN</h4>
+                <p>An orbiter that was launched to study the upper atmosphere of Mars, how the planet lost its water and atmosphere over time and collect data for surface rovers. It launched on November 18, 2013 and entered Mars orbit on September 21, 2014. The mission ended when NASA lost contact on December 6, 2025 and was deemed unrecoverable.</p>
+                <h4>Additional instruments on MAVEN</h4>
+                <ul>
+                    <li><strong>Suprathermal And Thermal Ion Composition (STATIC):</strong> Measures thermal ions to moderate energy escaping ions.</li>
+                    <li><strong>Solar Wind Electron Analyzer (SWEA):</strong> Measures low-energy solar wind and ionospheric electrons.</li>
+                    <li><strong>Solar Wind Ion Analyzer (SWIA):</strong> Measures the density and velocity distributions of solar wind and magnetosheath ions.</li>
+                    <li><strong>Solar Energetic Particle (SEP):</strong> Detects high-energy solar energetic particles originating from the Sun.</li>
+                    <li><strong>Langmuir Probe and Waves (LPW):</strong> Determines ionospheric electron density and temperature, plus wave electric fields.</li>
+                    <li><strong>Magnetometer:</strong> Dual magnetometers mounted on the solar array tips to measure interplanetary and crustal magnetic fields.</li>
+                    <li><strong>Imaging Ultraviolet Spectrograph (IUVS):</strong> Examines the ultraviolet colors of the planet have been rendered in false color, to show what humans would see with ultraviolet-sensitive eyes.</li>
+                    <li><strong>Neutral Gas and Ion Mass Spectrometer (NGIMS):</strong> Measures the composition and isotope ratios of neutral gases and ions in the Martian upper atmosphere.</li>
+                </ul>
+
+                <h4>Perseverance Rover</h4>
+                <p>NASA&rsquo;s Perseverance Rover is a robotic Mars rover launched on July 30, 2020, and successfully landed in Jezero Crater on February 18, 2021. Its mission is still active until now it carries seven primary scientific instruments and a sample collection system. It originally transported the Ingenuity Mars Helicopter.</p>
+                <h4>Additional instruments</h4>
+                <ul>
+                    <li><strong>PIXL (Planetary Instrument for X-ray Lithochemistry):</strong> Uses X-ray analysis to identify the chemical elements in Martian rocks and soil.</li>
+                    <li><strong>SHERLOC (Scanning Habitable Environment with Raman &amp; Luminescence for Organics &amp; Chemicals):</strong> Uses ultraviolet laser spectroscopy to detect organic compounds and identify minerals that may provide clues about past habitability.</li>
+                    <li><strong>RIMFAX (Radar Image for Mars&rsquo;s Subsurface Experience):</strong> Uses ground-penetrating radar to investigate underground geological structures and layers beneath the Martian surface.</li>
+                    <li><strong>MEDA (Mars Environmental Dynamics Analyzer):</strong> Measures weather conditions, including temperature, wind, humidity, dust, and atmospheric properties.</li>
+                    <li><strong>MOXIE (Mars Oxygen In-Situ Resource Utilization Experiment):</strong> Demonstrated the production of oxygen from carbon dioxide in the Martian atmosphere, supporting future human exploration technologies.</li>
+                    <li><strong>SuperCam:</strong> User laser spectroscopy, imaging, and sound recording to analyze the chemical composition and properties of the rocks from a distance.</li>
+                    <li><strong>Mastcam-Z:</strong> An advanced camera system used to capture panoramic, stereoscopic, and zoom images of the Martian surface. It also helps analyze surface minerals.</li>
+                </ul>
+
+                <h4>Curiosity Rover</h4>
+                <p>This rover is part of the Mars Science Laboratory mission. Curiosity was launched on November 26, 2011 from Cape Canaveral, Florida, with an Atlas V-541 rocket, and landed on August 6, 2012 (UTC) at Gale Crater. Gale Crater is a 154 km wide impact basin near the equator of Mars. The main goal is to determine whether Mars will ever be able to support life. Unlike the list of &quot;abandoned equipment&rdquo;, Curiosity has not been abandoned. The two-year mission was extended indefinitely in December 2012, and the rover is still in operation. As of March 24, 2026, Curiosity has been in Gale Crater for 4,485 sol since landing.</p>
+
+                <h4>Opportunity Rover</h4>
+                <p>Landed in the Meridiani Planum region on January 25, 2004 (UTC), seven months after the launch from Cape Canaveral. This rover is designed for only 90 days, but travels about 45 km. Opportunity stopped communicating on June 10, 2018, when a global dust strom enveloped its location in &quot;Perseverance Valley&rdquo;. NASA sent the last order on February 12, 2019 and declared the mission ended on February 13, 2019. The total mileage is 45.16 km. This rover remains in Perseverance Valley.</p>
+
+                <h4>Spirit Rover</h4>
+                <p>Landed at Gusev Crater on January 4, 2004, three weeks before Opportunity. Spirit was trapped in a &ldquo;sand trap&rdquo; at the end of 2009 so that his battery charging was hindered, and the last communication occurred on March 22, 2010. attempts to contact him were stopped on May 25, 2011. Spirit remains silent in a location called &ldquo;Troy&rdquo; on the west side of Home Plate. The distance is 7.73 km.</p>
+
+                <h4>Viking 1</h4>
+                <p>Launched on August 20, 1975 and landed on July 20, 1976 on the western slope of Chryse Plantia. This lander operated for about six years, far exceeding the 90-days mission, until the wrong command of the control center caused permanent contact loss. The last transmission was recorded on November 11, 1982 (some other NASA sources wrote November 13, 1982). In 2006, this lander was successfully photographed by the Mars Reconnaissance Orbiter.</p>
+
+                <h4>Viking 2</h4>
+                <p>Launched on September 9, 1975 and landed on September 3, 1976 at Utopia Plantia. The last data was received on Earth on April 11, 1980. The entire Viking program officially ended on May 21, 1983.</p>
+
+                <h4>Mars Pathfinder</h4>
+                <p>Launched on December 4, 1997 in Ares Vallis. The lander is named Carl Sagan Memorial Station and the rover is Sojourner. The last successful data transmission was completed on September 27, 1997 (sol 83). This mission sent more than 16,500 images from the lander and 550 from the rover. Sojourner brought the Alpha Proton X-ray Spectrometer (APXS) to analyze the composition of the rocks and soil.</p>
+            </section>
+        </main>
+        <script>
+            document.getElementById("explore-button").addEventListener("click", function () {
+                sessionStorage.setItem("astras-ignite-explored", "true");
+                document.getElementById("welcome-screen").classList.add("is-leaving");
+                window.setTimeout(function () {
+                    document.getElementById("welcome-screen").hidden = true;
+                }, 500);
+            });
+        </script>
+    </body>
+</html>
